@@ -1,5 +1,8 @@
 package com.f.mylibrary;
 
+import android.content.ContentProvider;
+import android.support.v4.app.Fragment;
+
 import org.junit.Test;
 
 import java.util.ArrayList;
@@ -587,6 +590,7 @@ public class LeetCodeTest8 {
             combinationSum3(i + 1, k - 1, n - i, lists, temp);
             temp.remove(temp.size() - 1);
         }
+
     }
 
     public boolean containsNearbyDuplicate(int[] nums, int k) {
